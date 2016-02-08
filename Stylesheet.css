@@ -1,0 +1,93 @@
+.TITLE{
+    height: 200px;
+    width: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.TITLE:hover{
+    content: url("../Images/Logo.png");
+}
+.currentPools{
+    height: 35px;
+    width: auto;
+    text-align: center;
+}
+h1 {
+    font-size:40px;
+    font-family:"Raleway", sans-serif;
+    font-weight: 500;
+}
+.headerdiv{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+.circleele{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: 20px;
+    border: solid 2px white;
+}
+.txtin{
+    margin: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: solid 2px #c2e8f5;
+    color: #c2e8f5;
+    width: 250px;
+}
+.txtin:placeholder{
+    
+}
+input.txtin{
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    color: C2E8F5;
+}
+.txtin:focus{
+    border: none;
+    border-bottom: solid 2px #c2e8f5;
+}
+#slogan{
+    padding-top: 25px;
+    font-size:13;
+    color: #f9a148;
+}
+
+#makeAccount{
+    font-size:8;
+    color: #c67436;
+}
+#cpoolstxt{
+    color: #f9a148;
+}
+body{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../Images/LandingPagephoto-01.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+    background-size: 100%, auto;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+.loginbutton{
+    height: 35px;
+    width: auto;
+}
+.longScreenImage{
+    width: 100%;
+}
+#hov1:hover{
+    content: url("../Images/hoverpool.png");
+}
+#hov2:hover{
+    content: url("../Images/squarecurrentpool2HOVER.png");
+}
+#hov3:hover{
+    content: url("../Images/currentpool3HOVER.png");
+}
